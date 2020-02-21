@@ -5,7 +5,6 @@
 
 nav{
     
-    padding: 10px;
     display: flex;
     justify-content: space-between;
     
@@ -31,8 +30,11 @@ nav > div > *{
 }
 
 .Iniciar{
+   
+    padding: 5px;
     color: white;
     border: 1px solid #4285f4;
+    border-radius: 2px;
     font-weight: bold;
     outline: none;
     background: #4285f4;
@@ -59,7 +61,7 @@ nav > div > *{
     border: 1px solid #f2f2f2;
     border-radius: 4px;
     color: #5F6368;
-  
+    
     font-size: 14px;
     height: 36px;
     min-width: 54px;
@@ -67,6 +69,7 @@ nav > div > *{
 
 a{
     all:unset;
+    font-size: 13px;
     
 }
 a:hover{
@@ -77,6 +80,7 @@ a:hover{
 p >a{
   all:unset;
   color: rgb(26, 13, 171);
+  font-size: 13px;
 }
 
 img{
