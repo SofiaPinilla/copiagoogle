@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    margin:0;
     font-family: arial,sans-serif;
 }
 
@@ -42,33 +43,56 @@ nav > div > *{
    
 }
 
-.input{
+.input-container{
     display: flex;
-    flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     height: 44px;
-    width: 582px;
-    background-color: transparent;
-   border-radius: 20px;
+    width: 482px;
+    border-radius: 20px;
+    border: 1px solid  #dfe1e5;
     color: rgba(0,0,0,.87);
     font-size: 16px;
 }
-
+.input-container input{
+    all:unset;
+    flex:1
+}
+.buscar{
+    opacity: 0.35;
+    height: 20px;
+    width: 20px;
+}
+.microfono{
+    width: 24px;
+    height: 24px;
+}
 .btn{
     padding: 10px;
-    margin: 11px 4px;
+    margin: 30px 4px;
     background-color: #f2f2f2;
     border: 1px solid #f2f2f2;
     border-radius: 4px;
     color: #5F6368;
-    
     font-size: 14px;
     height: 36px;
     min-width: 54px;
 }
 
+.btn:hover{
+    cursor: pointer;
+    color: black;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+main{
+    flex:1
+}
 a{
-    all:unset;
+    all:unset;  
     font-size: 13px;
     
 }
@@ -84,5 +108,22 @@ p >a{
 }
 
 img{
-    margin: 10px;
+    margin: 20px;
 }
+
+.idiomas{
+    font-size: 13px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    text-align: left;
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    color: rgba(0,0,0,.54);
+    padding-left: 27px;
+    line-height: 40px;
+}
+
