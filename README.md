@@ -8,7 +8,7 @@ Este proyecto es una copia del buscador de google.
 
 #### Preview
 
-![foto](copiagoogle.png) 
+![foto](copiagoogle.PNG) 
 
 
 
